@@ -1,0 +1,10 @@
+.footer {
+    margin: 10px;
+}
+
+.footer__pictureFooter {
+    max-width: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

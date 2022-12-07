@@ -1,0 +1,25 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.colorNight {
+    background-color: #000;
+    color: #fff;
+}
+
+.body {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
