@@ -15,7 +15,8 @@
     const init = () => {
         let changeBackgroundButton = document.querySelector(".js-button");
         changeBackgroundButton.addEventListener("click", onChangeBackgroundClick);
+        welcome();
     };
-    welcome();
+    
     init();
 }
