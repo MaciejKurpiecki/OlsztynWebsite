@@ -3,7 +3,7 @@
         console.log("Hello there!")
     }
 
-    const onChangeBackgroundClick = () => {
+    const toggleBackground = () => {
         const dayNight = document.querySelector(".js-dayNight");
         const photo = document.querySelector(".js-landscape");
         const buttonPicture = document.querySelector(".js-button");
@@ -14,7 +14,7 @@
     }
     const init = () => {
         const changeBackgroundButton = document.querySelector(".js-button");
-        changeBackgroundButton.addEventListener("click", onChangeBackgroundClick);
+        changeBackgroundButton.addEventListener("click", toggleBackground);
         welcome();
     };
     
