@@ -1,23 +1,21 @@
-function welcome(){
-    console.log("Hello there!")
+{
+    const welcome = () => {
+        console.log("Hello there!")
+    }
+    welcome();
 }
-welcome();
+{
 
-let changeBackgroundButton = document.querySelector(".js-button");
-let dayNight = document.querySelector(".js-dayNight");
-let photo = document.querySelector(".js-landscape");
-
-changeBackgroundButton.addEventListener("click", () => {
-    dayNight.classList.toggle("colorNight");
-
-    if (dayNight.classList.contains("colorNight")) {
-        photo.classList.add("header__pictureBannerNight");
-        changeBackgroundButton.classList.remove("header__buttonSun");
-        changeBackgroundButton.classList.add("header__buttonMoon");
+    const onChangeBackgroundClick = () => {
+        dayNight.classList.toggle("colorNight");
+        photo.classList.toggle("header__pictureBannerNight");
+        changeBackgroundButton.classList.toggle("header__buttonSun");
+        changeBackgroundButton.classList.toggle("header__buttonMoon");
     }
-    else {
-        photo.classList.remove("header__pictureBannerNight");
-        changeBackgroundButton.classList.add("header__buttonSun");
-        changeBackgroundButton.classList.remove("header__buttonMoon");
-    }
-});
+
+    let changeBackgroundButton = document.querySelector(".js-button");
+    let dayNight = document.querySelector(".js-dayNight");
+    let photo = document.querySelector(".js-landscape");
+
+    changeBackgroundButton.addEventListener("click", onChangeBackgroundClick);
+}
