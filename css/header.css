@@ -17,7 +17,7 @@
 }
 
 .header__dayNightButton--moon{
-    background-image: url(./images/moon.png);
+    background-image: url(/images/moon.png);
 }
 
 .header__pictureHead {
