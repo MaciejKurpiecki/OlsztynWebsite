@@ -7,7 +7,7 @@
     background: none;
     border: #ff0000 solid 2px;
     border-radius: 50%;
-    background-image: url(https://i.postimg.cc/Y93LRt6g/pngegg-2.png);
+    background-image: url(/images/sun.png);
     padding: 25px;
     background-size: contain;
     margin-bottom: 15px;
@@ -17,7 +17,7 @@
 }
 
 .header__dayNightButton--moon{
-    background-image: url(https://i.postimg.cc/zX3HwZVb/pngegg-1-1.png);
+    background-image: url(/images/moon.png);
 }
 
 .header__pictureHead {
@@ -35,5 +35,5 @@
 }
 
 .header__pictureBannerNight {
-    content: url(https://i.postimg.cc/HnMX3YRY/Panorama-Olsztyna-2-1.jpg);
+    content: url(/images/landscapeNight.jpg);
 }
