@@ -7,7 +7,7 @@
     background: none;
     border: #ff0000 solid 2px;
     border-radius: 50%;
-    background-image: url(./images/sun.png);
+    background-image: url(../images/sun.png);
     padding: 25px;
     background-size: contain;
     margin-bottom: 15px;
@@ -17,7 +17,7 @@
 }
 
 .header__dayNightButton--moon{
-    background-image: url(./images/moon.png);
+    background-image: url(../images/moon.png);
 }
 
 .header__pictureHead {
@@ -35,5 +35,5 @@
 }
 
 .header__pictureBannerNight {
-    content: url(./images/landscapeNight.jpg);
+    content: url(../images/landscapeNight.jpg);
 }
